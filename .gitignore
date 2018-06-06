@@ -1,0 +1,11 @@
+#.gitignore
+
+/*
+!/.i3
+/.i3/layouts
+/.i3/conky
+!.bashrc
+!.emacs
+!.gitignore
+!.xinitrc
+!.Xresources
