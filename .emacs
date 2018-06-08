@@ -29,6 +29,15 @@
 (setq c-default-style "stroustrup"
       c-basic-offset 4)
 
+(setq
+ backup-by-copying t
+ backup-directory-alist
+ '(("." . "~/.emacs.d/backups/"))
+ delete-old-versions t
+ kept-new-versions 6
+ kept-old-versions 2
+ version-control t)
+
 ;MELPA packages
  (require 'package)
  (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
