@@ -77,8 +77,8 @@ bindsym $mod+p focus parent
 bindsym $mod+c focus child
 
 # switch to workspace
-bindsym $mod+1 workspace 1: terminal
-bindsym $mod+2 workspace 2: browser
+bindsym $mod+1 workspace 1:terminal
+bindsym $mod+2 workspace 2:browser
 bindsym $mod+3 workspace 3
 bindsym $mod+4 workspace 4
 bindsym $mod+5 workspace 5
@@ -86,11 +86,11 @@ bindsym $mod+6 workspace 6
 bindsym $mod+7 workspace 7
 bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
-bindsym $mod+0 workspace 10: music
+bindsym $mod+0 workspace 10:music
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace 1: terminal
-bindsym $mod+Shift+2 move container to workspace 2: browser
+bindsym $mod+Shift+1 move container to workspace 1:terminal
+bindsym $mod+Shift+2 move container to workspace 2:browser
 bindsym $mod+Shift+3 move container to workspace 3
 bindsym $mod+Shift+4 move container to workspace 4
 bindsym $mod+Shift+5 move container to workspace 5
@@ -98,7 +98,7 @@ bindsym $mod+Shift+6 move container to workspace 6
 bindsym $mod+Shift+7 move container to workspace 7
 bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
-bindsym $mod+Shift+0 move container to workspace 10: music
+bindsym $mod+Shift+0 move container to workspace 10:music
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -175,9 +175,9 @@ mode "$mode_launcher" {
 bindsym Ctrl+$mod+e exec xdotool sleep 0.2 type --delay 20 vaziri.dev@gmail.com
 
 #layouts / workspace
-for_window [class="URxvt"] move to workspace 1: terminal
-for_window [class="Firefox"] move to workspace 2: browser
-for_window [class="Clementine"] move to workspace 10: music
+for_window [class="URxvt"] move to workspace 1:terminal
+for_window [class="Firefox"] move to workspace 2:browser
+for_window [class="Clementine"] move to workspace 10:music
 
 
 # startup
