@@ -12,7 +12,7 @@
 set $mod Mod4
 
 # Font for window titles. This line is irrelevant, just kept as reference
-font pango:DejaVu Sans Mono 12
+font pango:TerminessTTF Nerd Font 12
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -140,7 +140,8 @@ bar {
 	position       top
 	height	       18
 	#output	       primary
-	font	       pango:Fura Code Light Nerd Font Complete 12
+	font	       pango:TerminessTTF Nerd Font 12
+	#pango:Fura Code Light Nerd Font Complete 12
 }
 
 # i3-gaps, remove titlebars
