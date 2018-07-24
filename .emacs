@@ -26,9 +26,15 @@
  '(font-lock-type-face ((t (:foreground "brightred")))))
 
 ;Set C formatting
+(setq tab-width 4)
+
 (setq c-default-style "stroustrup"
       c-basic-offset 4)
 
+;Set linum-format
+(setq linum-format "%3d|")
+
+;Move backups to keep directories clean
 (setq
  backup-by-copying t
  backup-directory-alist
